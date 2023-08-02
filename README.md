@@ -26,6 +26,16 @@ Custom `leftText` & `rightText`
 
 ---
 
+Custom `leftText`, `rightText`, & `textColor`
+
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&textColor=000)
+
+```md
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&textColor=000)
+```
+
+---
+
 Custom `leftText`, `rightText`, `leftSectionColor`, & `rightSectionColor`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
