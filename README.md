@@ -1,5 +1,7 @@
 # Badge Builder Hub
 
+## Split Badge
+
 ### 🖥️ Demo
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
