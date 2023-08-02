@@ -14,7 +14,8 @@ Default (Unmodified)
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 ```
 
-> 
+>
+>
 
 Custom `leftText` & `rightText`
 
