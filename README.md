@@ -6,7 +6,7 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ### 🖥️ Demo
 
-- Default (Unmodified)
+Default (Unmodified)
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 
@@ -16,7 +16,7 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ---
 
-- Custom `leftText` & `rightText`
+Custom `leftText` & `rightText`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 
@@ -26,7 +26,7 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ---
 
-- Custom `leftText`, `rightText`, `leftSectionColor`, & `rightSectionColor`
+Custom `leftText`, `rightText`, `leftSectionColor`, & `rightSectionColor`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
 
@@ -36,7 +36,7 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ---
 
-- Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionColor`, & `rightSectionColor`
+Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionColor`, & `rightSectionColor`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=3BA6E5&rightTextColor=333&leftSectionColor=333&rightSectionColor=3BA6E5)
 
