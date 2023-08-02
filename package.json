@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@octokit/plugin-rest-endpoint-methods": "^7.1.2",
+    "@octokit/rest": "^19.0.11",
+    "axios": "^1.4.0",
+    "canvas": "^2.11.2",
+    "graphql-request": "^6.1.0",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4"
+  },
+  "name": "badge-builder-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
