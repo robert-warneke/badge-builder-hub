@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://github.com/robert-warneke/badge-builder-hub",
+        "statusCode": 301
+      }
+    ]
+  }
