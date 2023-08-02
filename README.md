@@ -14,6 +14,8 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 ```
 
+---
+
 - Custom `leftText` & `rightText`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
@@ -22,6 +24,8 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 ```
 
+---
+
 - Custom `leftText`, `rightText`, `leftSectionColor`, & `rightSectionColor`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
@@ -29,6 +33,8 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 ```md
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
 ```
+
+---
 
 - Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionColor`, & `rightSectionColor`
 
