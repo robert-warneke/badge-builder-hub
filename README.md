@@ -20,10 +20,18 @@ Custom Text
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 ```
 
-Custom Text & Custom Colors
+Custom Text & Custom Section Colors
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
 
 ```md
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
+```
+
+Custom Text, Custom Text Colors, & Custom Section Colors
+
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=f5f5f5&leftSectionColor=f5f5f5&rightSectionColor=00ffff)
+
+```md
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=6660e0&leftSectionColor=f5f5f5&rightSectionColor=00ffff)
 ```
