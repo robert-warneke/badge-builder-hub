@@ -30,8 +30,8 @@ Custom Text & Custom Section Colors
 
 Custom Text, Custom Text Colors, & Custom Section Colors
 
-![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=333&leftSectionColor=f5f5f5&rightSectionColor=00cccc)
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=333&leftSectionColor=f5f5f5&rightSectionColor=1DA1F2)
 
 ```md
-![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=333&leftSectionColor=f5f5f5&rightSectionColor=00cccc)
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=333&rightTextColor=333&leftSectionColor=f5f5f5&rightSectionColor=1DA1F2)
 ```
