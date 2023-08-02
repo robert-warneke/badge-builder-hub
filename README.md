@@ -14,7 +14,7 @@ Default (Unmodified)
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 ```
 
-Custom Text
+Custom leftText & rightText
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 
@@ -22,7 +22,7 @@ Custom Text
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 ```
 
-Custom Text & Custom Section Colors
+Custom leftText, rightText, leftSectionColor, & rightSectionColor
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
 
@@ -30,7 +30,7 @@ Custom Text & Custom Section Colors
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
 ```
 
-Custom Text, Custom Text Colors, & Custom Section Colors
+Custom leftText, rightText, leftTextColor, rightTextColor, leftSectionColor, & rightSectionColor
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=3BA6E5&rightTextColor=333&leftSectionColor=333&rightSectionColor=3BA6E5)
 
