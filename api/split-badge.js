@@ -5,8 +5,9 @@ const createSplitBadge = require('../svg/split-badge-generator.js');
 const FALLBACK_LEFT_TEXT = 'leftText';
 const FALLBACK_RIGHT_TEXT = 'rightText';
 
-const FALLBACK_LEFT_TEXT_COLOR = colors.getColor('white') || '#fff';
-const FALLBACK_RIGHT_TEXT_COLOR = colors.getColor('white') || '#fff';
+const FALLBACK_TEXT_COLOR = colors.getColor('white') || '#fff';
+const FALLBACK_LEFT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
+const FALLBACK_RIGHT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
 const FALLBACK_LEFT_SECTION_COLOR = colors.getColor('grey') || '#555';
 const FALLBACK_RIGHT_SECTION_COLOR = colors.getColor('brightGreen') || '#97ca00';
 
@@ -21,15 +22,31 @@ module.exports = async (req, res) => {
       let rightText = rightTextQuery || FALLBACK_RIGHT_TEXT;
 
       // Query Text Colors
+      let textColorQuery = req.query.textColor || null;
       let leftTextColorQuery = req.query.leftTextColor || null;
       let rightTextColorQuery = req.query.rightTextColor || null;
 
       // Define Text Colors
+
       let requestedLeftTextColor = colors.getColorQuery(leftTextColorQuery, FALLBACK_LEFT_TEXT_COLOR);
       let leftTextColor = requestedLeftTextColor;
 
       let requestedRightTextColor = colors.getColorQuery(rightTextColorQuery, FALLBACK_RIGHT_TEXT_COLOR);
       let rightTextColor = requestedRightTextColor;
+
+      let requestedTextColor = colors.getColorQuery(textColorQuery, FALLBACK_TEXT_COLOR);
+      let textColor;
+      if (textColorQuery) {
+        textColor = requestedTextColor;
+        leftTextColor = textColor;
+        rightTextColor = textColor;
+        if (leftTextColorQuery) {
+          leftTextColor = requestedLeftTextColor;
+        }
+        if (rightTextColorQuery) {
+          rightTextColor = requestedRightTextColor;
+        }
+      }
 
       // Query Section Colors
       let leftSectionColorQuery = req.query.leftSectionColor || null;
