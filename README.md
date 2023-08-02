@@ -5,6 +5,7 @@
 ### 🖥️ Demo
 
 Default (Unmodified)
+
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 
 ```md
@@ -12,6 +13,7 @@ Default (Unmodified)
 ```
 
 Custom Text
+
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World)
 
 ```md
