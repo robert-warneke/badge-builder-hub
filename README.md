@@ -66,6 +66,8 @@ Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionC
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=3BA6E5&rightTextColor=333&leftSectionColor=333&rightSectionColor=3BA6E5)
 ```
 
+---
+
 ### ⚙️ Customization
 
 | Query Parameters  | Description                               |
