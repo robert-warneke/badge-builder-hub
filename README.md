@@ -66,12 +66,12 @@ Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionC
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftTextColor=3BA6E5&rightTextColor=333&leftSectionColor=333&rightSectionColor=3BA6E5)
 ```
 
-| Query Parameters  | Description |
-| ----------------- | ----------- |
-| leftText          | |
-| rightText         | |
-| textColor         | |
-| leftTextColor     | |
-| rightTextColor    | |
-| leftSectionColor  | |
-| rightSectionColor | |
+| Query Parameters  | Description                               |
+| ----------------- | ----------------------------------------- |
+| leftText          | Customize the text on the left.           |
+| rightText         | Customize the text on the right.          |
+| textColor         | Customize the color of the text.          |
+| leftTextColor     | Customize the color of the left text.     |
+| rightTextColor    | Customize the color of the right text.    |
+| leftSectionColor  | Customize the color of the left section.  |
+| rightSectionColor | Customize the color of the right section. |
