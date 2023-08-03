@@ -103,3 +103,5 @@ Query parameters are added after the main URL using the '?' character, followed 
 ---
 
 </details>
+
+---
