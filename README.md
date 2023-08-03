@@ -75,6 +75,16 @@ You can customize the 'Split Badge' by providing query parameters in the URL.
 
 Query parameters are added after the main URL using the '?' character, followed by a series of key=value pairs, separated by '&'.
 
+> 🔍 Example
+> ```md
+> https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World
+> ```
+>
+> In this example:
+> - `https://badge-builder-hub.vercel.app/api/split-badge` is the main URL.
+> - `'leftText'` is a parameter key and `'Hello'` is its value.
+> - `'rightText'` is another parameter key and `'World'` is its value.
+
 ##### Available Query Parameters
 
 | Query Parameters  | Description                                                   |
