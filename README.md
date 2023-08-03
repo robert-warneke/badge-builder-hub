@@ -5,9 +5,6 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 <details>
 <summary><h2>Split Badge</h2></summary>
 
-</details>
-## Split Badge
-
 ### 🖥️ Demo
 
 Default (Unmodified)
@@ -104,3 +101,5 @@ Query parameters are added after the main URL using the '?' character, followed 
 | `rightSectionColor` | Customize the color of the right section.                     |
 
 ---
+
+</details>
