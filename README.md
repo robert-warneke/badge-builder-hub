@@ -71,6 +71,12 @@ Custom `leftText`, `rightText`, `leftTextColor`, `rightTextColor`, `leftSectionC
 
 ### ⚙️ Customization
 
+You can customize the 'Split Badge' by providing query parameters in the URL.
+
+Query parameters are added after the main URL using the '?' character, followed by a series of key=value pairs, separated by '&'.
+
+##### Available Query Parameters
+
 | Query Parameters  | Description                               |
 | ----------------- | ----------------------------------------- |
 | leftText          | Customize the text on the left.           |
