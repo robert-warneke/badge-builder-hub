@@ -10,11 +10,20 @@
  * @param {string} rightTextColor - The color of the text in the right section of the badge in hexadecimal format (#RRGGBB).
  * @returns {string} The SVG code representing the split badge.
  */
-function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight) {
+function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery) {
   const padding = 10;
   const leftSectionWidth = getTextWidth(leftText) + 2 * padding;
   const rightSectionWidth = getTextWidth(rightText) + 2 * padding;
   const totalWidth = leftSectionWidth + rightSectionWidth;
+
+  let clipPathElement = '';
+  if (roundCornerQuery) {
+    clipPathElement = `
+      <clipPath id="r">
+        <rect width="${totalWidth}" height="20" rx="3" fill="#fff"/>
+      </clipPath>
+    `;
+  }
 
   const badgeSvg = `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${totalWidth}" height="20" role="img" aria-label="${leftText} ${rightText}">
@@ -23,9 +32,9 @@ function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionCol
         <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
         <stop offset="1" stop-opacity=".1"/>
       </linearGradient>
-      <clipPath id="r">
-        <rect width="${totalWidth}" height="20" rx="3" fill="#fff"/>
-      </clipPath>
+
+      ${clipPathElement}
+      
       <g clip-path="url(#r)">
         <rect width="${leftSectionWidth}" height="20" fill="${leftSectionColor}"/>
         <rect x="${leftSectionWidth}" width="${rightSectionWidth}" height="20" fill="${rightSectionColor}"/>

@@ -8,6 +8,10 @@ const FALLBACK_RIGHT_TEXT = 'rightText';
 const NORMAL_TEXT = 'normal';
 const BOLD_TEXT = 'bold';
 
+const ROUND_CORNERS = 'round';
+const SHARP_CORNERS = 'sharp'
+const FALLBACK_CORNER_STYLE = ROUND_CORNERS;
+
 const FALLBACK_TEXT_COLOR = colors.getColor('white') || '#fff';
 const FALLBACK_LEFT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
 const FALLBACK_RIGHT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
@@ -55,7 +59,7 @@ module.exports = async (req, res) => {
       let boldTextQuery = req.query.boldText === 'true' || false;
       let leftBoldTextQuery = req.query.leftBoldText === 'true' || false;
       let rightBoldTextQuery = req.query.rightBoldText === 'true' || false;
-      
+
       let leftFontWeight = NORMAL_TEXT;
       let rightFontWeight = NORMAL_TEXT;
 
@@ -65,6 +69,9 @@ module.exports = async (req, res) => {
       if (boldTextQuery || rightBoldTextQuery) {
         rightFontWeight = BOLD_TEXT;
       }
+
+      // Query Badge Style (Sharp Corners or Round Corners)
+      let roundCornerQuery = req.query.roundCorners !== 'false';
 
       // Query Section Colors
       let leftSectionColorQuery = req.query.leftSectionColor || null;
@@ -78,7 +85,7 @@ module.exports = async (req, res) => {
       let rightSectionColor = requestedRightSectionColor;
 
       // Create SVG
-      let badgeSvg = createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight);
+      let badgeSvg = createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery);
   
       res.setHeader("Content-Type", "image/svg+xml");
       res.status(200).send(badgeSvg);
