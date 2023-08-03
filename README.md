@@ -99,3 +99,5 @@ Query parameters are added after the main URL using the '?' character, followed 
 | `rightTextColor `   | Customize the color of the right text. Overrides `textColor`. |
 | `leftSectionColor`  | Customize the color of the left section.                      |
 | `rightSectionColor` | Customize the color of the right section.                     |
+
+---
