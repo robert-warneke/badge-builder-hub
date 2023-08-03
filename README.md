@@ -36,6 +36,17 @@ Custom `leftText`, `rightText`, & `textColor`
 
 ---
 
+Custom `leftText`, `rightText`, `textColor`, & `leftTextColor`
+&#9432; `leftTextColor` & `rightTextColor` overrides `textColor`
+
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&textColor=000&leftTextColor=f5f5f5)
+
+```md
+![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&textColor=000&leftTextColor=f5f5f5)
+```
+
+---
+
 Custom `leftText`, `rightText`, `leftSectionColor`, & `rightSectionColor`
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge?leftText=Hello&rightText=World&leftSectionColor=333&rightSectionColor=6660e0)
