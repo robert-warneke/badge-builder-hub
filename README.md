@@ -87,12 +87,15 @@ Query parameters are added after the main URL using the '?' character, followed 
 
 ##### Available Query Parameters
 
-| Query Parameters  | Description                                                   |
-| ----------------- | ------------------------------------------------------------- |
-| leftText          | Customize the text on the left.                               |
-| rightText         | Customize the text on the right.                              |
-| textColor         | Customize the color of the text.                              |
-| leftTextColor     | Customize the color of the left text. Overrides `textColor`.  |
-| rightTextColor    | Customize the color of the right text. Overrides `textColor`. |
-| leftSectionColor  | Customize the color of the left section.                      |
-| rightSectionColor | Customize the color of the right section.                     |
+| Query Parameters    | Description                                                   |
+| ------------------- | ------------------------------------------------------------- |
+| `leftText`          | Customize the text on the left.                               |
+| `rightText`         | Customize the text on the right.                              |
+| `boldText`          | Set to 'true' to bold the `leftText` and `rightText`. Default is 'false'. |
+| `boldLeftText`      | Set to 'true' to bold the `leftText`. Default is 'false'.                 |
+| `boldRightText`     | Set to 'true' to bold the `rightText`. Default is 'false'.                |
+| `textColor`         | Customize the color of the text.                              |
+| `leftTextColor `    | Customize the color of the left text. Overrides `textColor`.  |
+| `rightTextColor `   | Customize the color of the right text. Overrides `textColor`. |
+| `leftSectionColor`  | Customize the color of the left section.                      |
+| `rightSectionColor` | Customize the color of the right section.                     |

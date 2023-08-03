@@ -10,7 +10,7 @@
  * @param {string} rightTextColor - The color of the text in the right section of the badge in hexadecimal format (#RRGGBB).
  * @returns {string} The SVG code representing the split badge.
  */
-function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor) {
+function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight) {
   const padding = 10;
   const leftSectionWidth = getTextWidth(leftText) + 2 * padding;
   const rightSectionWidth = getTextWidth(rightText) + 2 * padding;
@@ -32,8 +32,8 @@ function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionCol
         <rect width="${totalWidth}" height="20" fill="url(#s)"/>
       </g>
       <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="11">
-        <text x="${leftSectionWidth / 2}" y="14" fill="${leftTextColor}">${leftText}</text>
-        <text x="${leftSectionWidth + rightSectionWidth / 2}" y="14" fill="${rightTextColor}">${rightText}</text>
+        <text x="${leftSectionWidth / 2}" y="14" fill="${leftTextColor}" font-weight="${leftFontWeight}">${leftText}</text>
+        <text x="${leftSectionWidth + rightSectionWidth / 2}" y="14" fill="${rightTextColor}" font-weight="${rightFontWeight}">${rightText}</text>
       </g>
     </svg>
   `;
