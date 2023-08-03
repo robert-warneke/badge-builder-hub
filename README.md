@@ -91,6 +91,7 @@ Query parameters are added after the main URL using the '?' character, followed 
 | ------------------- | ------------------------------------------------------------- |
 | `leftText`          | Customize the text on the left.                               |
 | `rightText`         | Customize the text on the right.                              |
+| `roundCorners`      | Set to 'false' to turn off the rounded corners of the badge. Default is 'true'. |
 | `boldText`          | Set to 'true' to bold the `leftText` and `rightText`. Default is 'false'. |
 | `boldLeftText`      | Set to 'true' to bold the `leftText`. Default is 'false'.                 |
 | `boldRightText`     | Set to 'true' to bold the `rightText`. Default is 'false'.                |
@@ -99,7 +100,6 @@ Query parameters are added after the main URL using the '?' character, followed 
 | `rightTextColor `   | Customize the color of the right text. Overrides `textColor`. |
 | `leftSectionColor`  | Customize the color of the left section.                      |
 | `rightSectionColor` | Customize the color of the right section.                     |
-| `roundCorners`      | Set to 'true' to round the corners of the badge. Default is 'true'. |
 
 ---
 
