@@ -48,3 +48,6 @@ build
 
 # Example Files
 .examples
+
+# Archive
+.archive
