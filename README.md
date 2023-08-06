@@ -7,13 +7,17 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ### Standard
 
-`standard-badge`
+```md
+https://badge-builder-hub.vercel.app/api/standard-badge
+```
 
 ![Standard-Badge](https://badge-builder-hub.vercel.app/api/standard-badge)
 
 ### Split
 
-`split-badge`
+```md
+https://badge-builder-hub.vercel.app/api/split-badge
+```
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 
