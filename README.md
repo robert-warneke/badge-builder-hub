@@ -5,14 +5,13 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ## Types of Badges
 
+### Standard
 ![Standard-Badge](https://badge-builder-hub.vercel.app/api/standard-badge)
-<details>
-<summary><h3>Standard Badge</h3></summary>
 
-
-</details>
+### Split
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
+
 <details>
 <summary><h3>Split Badge</h3></summary>
 
