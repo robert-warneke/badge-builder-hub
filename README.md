@@ -3,7 +3,7 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ---
 
-## Types of Badges
+## 🏅 Types of Badges
 
 ### Standard
 
@@ -23,32 +23,32 @@ https://badge-builder-hub.vercel.app/api/split-badge
 
 ---
 
-## How to Use
+## 🖥️ How to Use
 
 ---
 
-## Customization
+## 🎨 Customization
 
 See [CUSTOMIZATION.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/docs/CUSTOMIZATION.md) for more examples and a complete list of query parameters.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 See [CONTRIBUTING.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/CONTRIBUTING.md) for details on how to contribute to the project. 
 
 ---
 
-## License
+## 📜 License
 
 Badge Builder Hub is licensed under the MIT License. See the [LICENSE](https://github.com/robert-warneke/badge-builder-hub/blob/main/LICENSE) file for more details.
 
 ---
 
-## Support
+## 🚀 Support
 
 ---
 
-## Contact
+## ☎️ Contact
 
 ---
