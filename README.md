@@ -11,3 +11,5 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 ### Split
 
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
+
+---
