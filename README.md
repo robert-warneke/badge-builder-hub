@@ -2,8 +2,16 @@
 Badge Builder Hub is a versatile tool that empowers you to effortlessly create stunning badges for various purposes. Personalize your badges to showcase achievements, highlight skills, or add a touch of uniqueness to your projects. With a wide range of customization options available, you have the freedom to tailor each badge to suit your specific needs.
 
 ---
+
 <details>
-<summary><h2>Split Badge</h2></summary>
+<summary><h3>Standard Badge</h3></summary>
+
+
+</details>
+
+---
+<details>
+<summary><h3>Split Badge</h3></summary>
 
 ### 🖥️ Demo
 
