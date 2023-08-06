@@ -31,6 +31,10 @@ https://badge-builder-hub.vercel.app/api/split-badge
 
 ---
 
+## Contributing
+
+---
+
 ## License
 
 Badge Builder Hub is licensed under the MIT License. See the [LICENSE](https://github.com/robert-warneke/badge-builder-hub/blob/main/LICENSE) file for more details.

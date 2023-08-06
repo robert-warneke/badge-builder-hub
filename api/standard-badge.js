@@ -1,5 +1,6 @@
 const colors = require('../utils/colors');
 const badgeGenerator = require('../utils/badge-generator');
+const languages = require('../utils/languages')
 
 // Define Defaults
 const FALLBACK_TEXT = 'badgeText';
@@ -41,6 +42,21 @@ module.exports = async (req, res) => {
     
         // Query Badge Style (Sharp Corners or Round Corners)
         let roundCornerQuery = req.query.roundCorners !== 'false';
+
+        // Query & Define as Language Badge
+        let langQuery = req.query.lang || null;
+        if (langQuery) {
+            text = languages.formatLanguageName(langQuery) || FALLBACK_TEXT;
+            requestedBadgeColor = languages.getLanguageColor(langQuery) || FALLBACK_BADGE_COLOR;
+            badgeColor = requestedBadgeColor;
+            if (textQuery) {
+                text = textQuery || FALLBACK_TEXT;
+            }
+            if (badgeColorQuery) {
+                requestedBadgeColor = colors.getColorQuery(badgeColorQuery, FALLBACK_BADGE_COLOR);
+                badgeColor = requestedBadgeColor;
+            }
+        }
     
         // Create SVG
         let standardBadgeSvg = badgeGenerator.createStandardBadge(text, textColor, badgeColor, fontWeight, roundCornerQuery);
