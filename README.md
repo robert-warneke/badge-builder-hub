@@ -35,7 +35,7 @@ View [CUSTOMIZATION.md](https://github.com/robert-warneke/badge-builder-hub/blob
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/CONTRIBUTING.md) for details on contributing to the project. 
+See [CONTRIBUTING.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/CONTRIBUTING.md) for details on how to contribute to the project. 
 
 ---
 
