@@ -5,9 +5,13 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ## 🏅 Types of Badges
 
+Badge Builder Hub offers a variety of badges
+
 ### Standard
 
 ![Standard-Badge](https://badge-builder-hub.vercel.app/api/standard-badge)
+
+The Standard Badge is a classic and elegant design that suits various purposes. It offers a clean and straightforward layout, making it ideal for showcasing achievements, certifications, or any accomplishments you want to highlight. With its simplicity, the Standard Badge allows the content to shine while providing a professional touch to your projects.
 
 ```md
 https://badge-builder-hub.vercel.app/api/standard-badge
@@ -15,11 +19,15 @@ https://badge-builder-hub.vercel.app/api/standard-badge
 
 ### Split
 
+The Split Badge features a visually appealing split layout. The Split Badge is perfect for highlighting dual achievements, differentiating roles, or creating visually engaging badges for your projects.
+
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
 
 ```md
 https://badge-builder-hub.vercel.app/api/split-badge
 ```
+
+Whichever type of badge you choose, Badge Builder Hub ensures that you have the freedom to customize and tailor each badge to your specific needs. Create stunning and personalized badges effortlessly, and let your accomplishments shine with pride!
 
 ---
 
