@@ -27,7 +27,7 @@ The Split Badge features a visually appealing split layout. The Split Badge is p
 https://badge-builder-hub.vercel.app/api/split-badge
 ```
 
-Whichever type of badge you choose, Badge Builder Hub ensures that you have the freedom to customize and tailor each badge to your specific needs. Create stunning and personalized badges effortlessly, and let your accomplishments shine with pride!
+> Whichever type of badge you choose, Badge Builder Hub ensures that you have the freedom to customize and tailor each badge to your specific needs. Create stunning and personalized badges effortlessly, and let your accomplishments shine with pride!
 
 ---
 
