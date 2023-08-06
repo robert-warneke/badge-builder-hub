@@ -29,11 +29,13 @@ https://badge-builder-hub.vercel.app/api/split-badge
 
 ## Customization
 
-View the [CUSTOMIZATION](https://github.com/robert-warneke/badge-builder-hub/blob/main/docs/CUSTOMIZATION.md) file for more examples and a complete list of query parameters.
+View [CUSTOMIZATION.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/docs/CUSTOMIZATION.md) for more examples and a complete list of query parameters.
 
 ---
 
 ## Contributing
+
+See [CONTRIBUTING.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/CONTRIBUTING.md) for details on contributing to the project. 
 
 ---
 
