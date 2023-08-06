@@ -19,9 +19,9 @@ https://badge-builder-hub.vercel.app/api/standard-badge
 
 ### Split
 
-The Split Badge features a visually appealing split layout. The Split Badge is perfect for highlighting dual achievements, differentiating roles, or creating visually engaging badges for your projects.
-
 ![Split-Badge](https://badge-builder-hub.vercel.app/api/split-badge)
+
+The Split Badge features a visually appealing split layout. The Split Badge is perfect for highlighting dual achievements, differentiating roles, or creating visually engaging badges for your projects.
 
 ```md
 https://badge-builder-hub.vercel.app/api/split-badge
