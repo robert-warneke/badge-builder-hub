@@ -49,6 +49,6 @@ Badge Builder Hub is licensed under the MIT License. See the [LICENSE](https://g
 
 ---
 
-## ☎️ Contact
+## 💬 Contact
 
 ---
