@@ -3,6 +3,8 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 ---
 
+## Available Badges
+
 <details>
 <summary><h3>Standard Badge</h3></summary>
 
