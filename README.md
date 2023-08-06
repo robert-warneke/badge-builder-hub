@@ -9,7 +9,6 @@ Badge Builder Hub is a versatile tool that empowers you to effortlessly create s
 
 </details>
 
----
 <details>
 <summary><h3>Split Badge</h3></summary>
 
