@@ -1,5 +1,5 @@
 const colors = require('../utils/colors.js');
-const createSplitBadge = require('../svg/split-badge-generator.js');
+const badgeGenerator = require('../utils/badge-generator.js');
 
 // Define Defaults
 const FALLBACK_LEFT_TEXT = 'leftText';
@@ -80,7 +80,7 @@ module.exports = async (req, res) => {
       let rightSectionColor = requestedRightSectionColor;
 
       // Create SVG
-      let splitBadgeSvg = createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery);
+      let splitBadgeSvg = badgeGenerator.createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery);
   
       res.setHeader("Content-Type", "image/svg+xml");
       res.status(200).send(splitBadgeSvg);

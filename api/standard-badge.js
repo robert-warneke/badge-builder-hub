@@ -1,5 +1,5 @@
 const colors = require('../utils/colors');
-const createStandardBadge = require('../svg/standard-badge-generator');
+const badgeGenerator = require('../utils/badge-generator');
 
 // Define Defaults
 const FALLBACK_TEXT = 'badgeText';
@@ -43,7 +43,7 @@ module.exports = async (req, res) => {
         let roundCornerQuery = req.query.roundCorners !== 'false';
     
         // Create SVG
-        let standardBadgeSvg = createStandardBadge(text, textColor, badgeColor, fontWeight, roundCornerQuery);
+        let standardBadgeSvg = badgeGenerator.createStandardBadge(text, textColor, badgeColor, fontWeight, roundCornerQuery);
 
         res.setHeader("Content-Type", "image/svg+xml");
         res.status(200).send(standardBadgeSvg);
