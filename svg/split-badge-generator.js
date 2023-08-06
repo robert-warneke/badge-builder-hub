@@ -8,6 +8,9 @@
  * @param {string} rightSectionColor - The color of the right section of the badge in hexadecimal format (#RRGGBB).
  * @param {string} leftTextColor - The color of the text in the left section of the badge in hexadecimal format (#RRGGBB).
  * @param {string} rightTextColor - The color of the text in the right section of the badge in hexadecimal format (#RRGGBB).
+ * @param {string} [leftFontWeight="normal"] - The font weight of the text in the left section. Use values like "normal" or "bold".
+ * @param {string} [rightFontWeight="normal"] - The font weight of the text in the right section. Use values like "normal" or "bold".
+ * @param {boolean} [roundCornerQuery=false] - If true, the badge will have rounded corners.
  * @returns {string} The SVG code representing the split badge.
  */
 function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery) {
@@ -25,7 +28,7 @@ function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionCol
     `;
   }
 
-  const badgeSvg = `
+  const splitBadgeSvg = `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${totalWidth}" height="20" role="img" aria-label="${leftText} ${rightText}">
       <title>${leftText} ${rightText}</title>
       <linearGradient id="s" x2="0" y2="100%">
@@ -47,7 +50,7 @@ function createSplitBadge(leftText, rightText, leftSectionColor, rightSectionCol
     </svg>
   `;
 
-  return badgeSvg;
+  return splitBadgeSvg;
 }
 
 /**

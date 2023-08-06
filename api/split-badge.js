@@ -8,10 +8,6 @@ const FALLBACK_RIGHT_TEXT = 'rightText';
 const NORMAL_TEXT = 'normal';
 const BOLD_TEXT = 'bold';
 
-const ROUND_CORNERS = 'round';
-const SHARP_CORNERS = 'sharp'
-const FALLBACK_CORNER_STYLE = ROUND_CORNERS;
-
 const FALLBACK_TEXT_COLOR = colors.getColor('white') || '#fff';
 const FALLBACK_LEFT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
 const FALLBACK_RIGHT_TEXT_COLOR = FALLBACK_TEXT_COLOR;
@@ -34,7 +30,6 @@ module.exports = async (req, res) => {
       let rightTextColorQuery = req.query.rightTextColor || null;
 
       // Define Text Colors
-
       let requestedLeftTextColor = colors.getColorQuery(leftTextColorQuery, FALLBACK_LEFT_TEXT_COLOR);
       let leftTextColor = requestedLeftTextColor;
 
@@ -85,10 +80,10 @@ module.exports = async (req, res) => {
       let rightSectionColor = requestedRightSectionColor;
 
       // Create SVG
-      let badgeSvg = createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery);
+      let splitBadgeSvg = createSplitBadge(leftText, rightText, leftSectionColor, rightSectionColor, leftTextColor, rightTextColor, leftFontWeight, rightFontWeight, roundCornerQuery);
   
       res.setHeader("Content-Type", "image/svg+xml");
-      res.status(200).send(badgeSvg);
+      res.status(200).send(splitBadgeSvg);
     } catch (error) {
       console.error(error);
       res.status(500).send("Internal Server Error");
