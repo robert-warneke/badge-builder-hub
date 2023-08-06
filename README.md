@@ -29,7 +29,7 @@ https://badge-builder-hub.vercel.app/api/split-badge
 
 ## 🎨 Customization
 
-See [CUSTOMIZATION.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/docs/CUSTOMIZATION.md) for more examples and a complete list of query parameters.
+With Badge Builder Hub, you have the ability to control the appearance of the badges. Customize the badges by tweaking various parameters to suit your needs. For a comprehensive list of query parameters and more examples, please refer to our [CUSTOMIZATION.md](https://github.com/robert-warneke/badge-builder-hub/blob/main/docs/CUSTOMIZATION.md) document.
 
 ---
 
