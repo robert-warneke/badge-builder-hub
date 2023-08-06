@@ -22,3 +22,23 @@ https://badge-builder-hub.vercel.app/api/split-badge
 ```
 
 ---
+
+## How to Use
+
+---
+
+## Customization
+
+---
+
+## License
+
+---
+
+## Support
+
+---
+
+## Contact
+
+---
